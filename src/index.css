@@ -6,3 +6,6 @@
 *{
   font-family:Arial, Helvetica, sans-serif;
 }
+::selection{
+  color: rgba(170, 133, 11, 0.882);
+}

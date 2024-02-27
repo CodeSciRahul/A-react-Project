@@ -1,11 +1,13 @@
 import React from 'react'
-import Background from './components/Background'
-
+import Background from './components/background'
+import Foreground from './components/Foreground'
 
 function App() {
   return (
     <div className=' relative w-full bg-zinc-800 h-screen'>
-      <Background/>
+    <Background/>
+    <Foreground/>
+
     </div>
   )
 }
